@@ -24,8 +24,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/recipe-page-lm0EHyAvKq)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Frontend Mentor Solution](https://www.frontendmentor.io/solutions/recipe-page-lm0EHyAvKq)
+- Live Site URL: [Click to see Live Site](https://andypuddle.github.io/recipe-page/)
 
 
 ### Built with
