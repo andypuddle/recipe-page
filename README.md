@@ -17,7 +17,7 @@ Desktop
 ![](https://github.com/andypuddle/recipe-page/blob/main/assets/images/Desktop%20View.png?raw=true)
 
 Mobile
-![](https://github.com/andypuddle/recipe-page/blob/main/assets/images/Mobile view.png)
+![](https://github.com/andypuddle/recipe-page/blob/main/assets/images/Mobile%20view.png?raw=true)
 
 
 ### Links
