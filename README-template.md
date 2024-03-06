@@ -17,7 +17,7 @@ Desktop
 ![](assets/images/Desktop View.png)
 
 Mobile
-![](./screenshot.png)
+![](assets/images/Mobile view.png)
 
 
 ### Links
