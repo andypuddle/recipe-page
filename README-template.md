@@ -14,7 +14,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Screenshots
 
 Desktop
-![](./screenshot.png)
+![](assets/images/Desktop View.png)
 
 Mobile
 ![](./screenshot.png)
