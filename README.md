@@ -14,10 +14,10 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Screenshots
 
 Desktop
-![](./assets/images/Desktop View.png)
+![](https://github.com/andypuddle/recipe-page/blob/main/assets/images/Desktop View.png)
 
 Mobile
-![](./assets/images/Mobile view.png)
+![](https://github.com/andypuddle/recipe-page/blob/main/assets/images/Mobile view.png)
 
 
 ### Links
