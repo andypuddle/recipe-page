@@ -1,0 +1,188 @@
+@font-face {
+    font-family: outfit;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: youngserif;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+:root {
+
+/* fonts */
+--Heading-font-family: "Youngserif", serif;
+--para-font-family: "Outfit", sans-serif;
+
+/* Colors */
+
+--H2: #854632;
+--PrepTime-Heading: #7b284f;
+
+--White: #ffffff;
+--PrepTime-bg: #fff5fa;
+--Body-bg: #f3e6d8;
+--hr-Grey: #e4ded8;
+--fontGeneral: #5f574e;
+--H1: #302d2c;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: var(--Body-bg);
+    padding: 7.8125rem 0; /* 125px */
+}
+
+h1 {
+    font-family: var(--Heading-font-family);
+    font-weight: 400;
+    color: var(--H1);
+    font-size: 2.25rem; /* 32px */
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-family: var(--Heading-font-family);
+    font-weight: 400;
+    color: var(--H2);
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-family: var(--para-font-family);
+    color: var(--PrepTime-Heading);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-family: var(--para-font-family);
+    line-height: 1.5rem; /* 24px */
+    color: var(--fontGeneral);
+    margin-bottom: 0.75rem;
+}
+
+.section-seperator {
+    margin: 1.5rem 2rem;
+    background-color: var(--hr-Grey);
+    border: 0;
+    height: 1px;
+}
+
+.macro-seperator {
+    background-color: var(--hr-Grey);
+    border: 0;
+    height: 1px;
+}
+
+.card {
+    background-color: var(--White);
+    width: 750px;
+    margin: auto;
+    border-radius: 25px;
+    padding-bottom: 1rem;
+}
+
+.main-image {
+    width: 100%;
+    padding: 2rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+header, .ingredients, .instructions, .nutrition {
+    padding: 0 2rem; /* 24px */
+}
+
+.prepTime {
+    background-color: var(--PrepTime-bg);
+    border-radius: 10px;
+    padding: 1.5rem; /* 24px */
+    margin: 2rem;
+}
+
+li {
+    font-family: var(--para-font-family);
+    line-height: 1.5rem; /* 24px */
+    color: var(--fontGeneral);
+    margin: 0.25rem 1.5rem;
+    padding-left: 1rem;
+}
+
+.nutriList {
+    margin: 0.25rem 1.5rem;
+    padding-left: 1rem;
+}
+
+.prepTime li::marker {
+    color: var(--PrepTime-Heading);
+}
+
+.ingredients li::marker, .instructions li::marker {
+    color: var(--H2);
+    font-weight: 700;
+    font-family: var(--fontGeneral);
+}
+
+.nutriList p {
+    width: 80px;
+    padding-top: .5rem;
+}
+
+.nutriList {
+    display: flex;
+    align-items: center;
+    gap: 13.5rem;
+}
+
+.nutriMacros {
+    color: var(--H2);
+    font-weight: 700;
+}
+
+
+/* Footer */
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* mobile */
+@media (max-width: 770px) {
+    body {
+        padding: 0;
+    }
+
+    .card {
+        min-width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .main-image {
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        border-radius: 0;
+    }
+}
