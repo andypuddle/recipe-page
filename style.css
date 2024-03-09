@@ -186,4 +186,8 @@ footer {
     img {
         border-radius: 0;
     }
+
+    .nutriList {
+        gap: 6rem;
+    }
 }
